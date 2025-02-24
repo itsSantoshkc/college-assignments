@@ -11,11 +11,7 @@ class Main{
 System.out.println("Enter two number");
     a = scan.nextInt();
     b = scan.nextInt();
-
-    if(a > b){
-      System.out.println("Positive difference : " + (a -b));
-    }else{
-      System.out.println("Positive difference : " + (b -a));
-  }
+  
+    System.out.println("Difference : " + Math.abs(a - b));
 }
 }
