@@ -1,0 +1,15 @@
+span h3 {
+    color: blue;
+}
+
+span > p {
+    font-weight: bold;
+}
+
+h2 + p {
+    color: red;
+}
+
+h2 ~ p {
+    font-style: italic;
+}
