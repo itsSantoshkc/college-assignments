@@ -4,16 +4,28 @@
     <title>Document</title>
   </head>
   <body>
-    <fieldset style="width: 500px">
+    <fieldset style="width: 300px">
       <legend>User Login</legend>
       <form>
-        <label for="username">Username</label>
-        <input type="text" name="username" placeholder="Enter your username" />
-        <br />
+        <table>
+          <tr> 
+          <td><label for="username">Username</label></td>
+          <td><input type="text" name="username" placeholder="Enter your username" /></td>
+          </tr>
+          <tr>
+            <td>
         <label for="password">Password</label>
+            </td>
+            <td>
         <input type="text" name="password" placeholder="Enter your password" />
-        <br />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
         <input type="submit" value="Login" />
+            </td>
+          </tr>
+        </table>
       </form>
     </fieldset>
   </body>
